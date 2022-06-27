@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setRecyclerView() {
 //        VersionsAdapter versionsAdapter = new VersionsAdapter(versionsList);
-        VersionsAdapter versionsAdapter = new VersionsAdapter(MainActivity.this,UserAgitctivity.arrayList);
+        VersionsAdapter versionsAdapter = new VersionsAdapter(MainActivity.this,UserActivity.arrayList);
         recyclerView.setAdapter(versionsAdapter);
         recyclerView.setHasFixedSize(true);
 
